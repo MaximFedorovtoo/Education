@@ -37,4 +37,14 @@ pixel = 24
 imageSize = size/pixel
 print(f"Задача №4 ответ: Размер изображения = {int(imageSize)} пикселей")
 
+number = int(input("Ведите число: "))
+inputNomber = number
+rem = ''
+
+while number > 0:
+    rem = str(number % 2) + rem
+    number = number // 2
+print(f"Задача №6 ответ: Число {inputNomber} в двоичной системе равно {rem}")
+
+
 # Home work is done
