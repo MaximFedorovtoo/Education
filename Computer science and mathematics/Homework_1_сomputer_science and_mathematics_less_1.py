@@ -37,4 +37,4 @@ pixel = 24
 imageSize = size/pixel
 print(f"Задача №4 ответ: Размер изображения = {int(imageSize)} пикселей")
 
-# Home worke is done 
+# Home work is done
